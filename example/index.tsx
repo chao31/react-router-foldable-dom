@@ -3,10 +3,10 @@ import * as React from 'react';
 // import * as ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 // import './index.scss';
-import { BrowserRouter, NavLink, useRoutes } from 'react-router-dom';
+import { BrowserRouter, NavLink } from 'react-router-dom';
 
 import { Home, BookList, BookDetail } from './pages';
-import Fold from '../.';
+import {useRoutes} from '../.';
 
 const App = () => {
   const routes = [
@@ -26,7 +26,7 @@ const App = () => {
       <header>
         <h1>Hello World</h1>
       </header>
-      <Fold routes={routes} />
+      {useRoutes(routes)}
     </div>
   );
 };

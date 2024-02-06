@@ -1,0 +1,8 @@
+.home-list {
+  display: flex;
+  flex-direction: column;
+
+  .home-list-item {
+    margin: 10px 0;
+  }
+}

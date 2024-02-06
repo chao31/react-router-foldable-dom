@@ -51,11 +51,18 @@
     "@types/react": "^18.2.53",
     "@types/react-dom": "^18.2.18",
     "husky": "^9.0.10",
+    "postcss": "^8.4.34",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^11.0.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
+  },
+  "repository": "https://github.com/chao31/react-router-foldable-dom.git",
+  "dependencies": {
+    "react-responsive": "^9.0.2"
   }
 }

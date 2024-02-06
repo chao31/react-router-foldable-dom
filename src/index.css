@@ -1,0 +1,8 @@
+.fold {
+  display: flex;
+}
+
+.fold-block {
+  width: 50%;
+  border: 1px solid #e5e5e5;
+}
